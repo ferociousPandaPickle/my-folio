@@ -1,0 +1,166 @@
+
+
+.react-stack{
+    border: 2px solid #61dafb;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a2e;
+    color: #8edcf0;
+}
+.css-stack{
+    border: 2px solid #264de4;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1a2a;
+    color: #8e8eed;
+}
+.vite-stack{
+    border: 2px solid #a855f7;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a1a2e;
+    color: #c98eed;
+}
+.javascript-stack{
+    border: 2px solid #f0db4f;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a2a1a;
+    color: #ede08e;
+}
+
+.discord-stack{
+    border: 2px solid #5865f2;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1a2e;
+    color: #8e8ef0;
+}
+
+.hugging-stack{
+    border: 2px solid #ffbd2e;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a2a1a;
+    color: #edcf8e;
+}
+
+.tailwind-stack{
+    border: 2px solid #06b6d4;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a2e;
+    color: #8ed8ed;
+}
+.spotify-stack{
+    border: 2px solid #1db954;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a1a;
+    color: #8eed8e;
+}
+
+.java-stack{
+    border: 2px solid #f89820;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a2010;
+    color: #f8c870;
+}
+.springboot-stack{
+    border: 2px solid #6db33f;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a1a;
+    color: #8eed8e;
+}
+.mongo-stack{
+    border: 2px solid #4db33d;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a1a;
+    color: #8eed8e;
+}
+.gatling-stack{
+    border: 2px solid #e85d2c;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a1a15;
+    color: #f0a080;
+}
+.javafx-stack{
+    border: 2px solid #3a86c7;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1f2a;
+    color: #7ab8e8;
+}
+
+.gamemaker-stack{
+    border: 2px solid #8bc34a;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a1a;
+    color: #a8e06c;
+}
+.python-stack{
+    border: 2px solid #3776ab;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1f2a;
+    color: #7ab0e8;
+}
+.flask-stack{
+    border: 2px solid #888888;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1a1a;
+    color: #cccccc;
+}
+.tauri-stack{
+    border: 2px solid #ffc131;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a2415;
+    color: #ffd970;
+}
+
+.typescript-stack{
+    border: 2px solid #3178c6;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1f2a;
+    color: #7aa8e8;
+}
+
+.threejs-stack{
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.vrm-stack{
+    border: 2px solid #ff6b9d;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a1a20;
+    color: #f08eb8;
+}
+
+.express-stack{
+    border: 2px solid #888888;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a1a1a;
+    color: #cccccc;
+}
+
+.groq-stack{
+    border: 2px solid #f55036;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a1815;
+    color: #f58e7d;
+}

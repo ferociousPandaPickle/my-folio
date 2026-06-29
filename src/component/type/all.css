@@ -1,0 +1,43 @@
+
+.open-source{
+    
+    border: 2px solid #2ee8a8;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a2a;
+    color: #8eedc7;
+}
+
+.personal{
+    
+    border: 2px solid #2ec8e8;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #1a2a2e;
+    color: #8ed8ed;
+}
+
+.closed-source{
+    
+    border: 2px solid #e82e2e;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a1a1a;
+    color: #ed8e8e;
+}
+
+.school{
+    border: 2px solid #e8e02e;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a2a1a;
+    color: #eded8e;
+}
+
+.working{
+    border: 2px solid #f5c518;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #2a2510;
+    color: #f5d76e;
+}

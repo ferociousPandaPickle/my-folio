@@ -1,0 +1,72 @@
+.home-container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    height: 100vh;
+    
+}
+.pfp{
+    background-color: black;
+    padding: 12px;
+    border-radius: 12px;
+}
+.pfp pre{
+    margin: 0;
+}
+
+.you-summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 12px;
+    flex:1;
+}
+.summary-edit{
+    font-size: larger;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.4);
+    
+}
+.bottom-contacts{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 12px;
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-1{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 20px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-2{
+    background-color: rgba(0, 255, 128, 0.1);
+    padding: 12px;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-1:hover{
+    color: #a1eaff;
+    transform: scale(1.05);
+
+}
+.button-2:hover{
+    color: #a1eaff;
+    transform: scale(1.05);
+
+}

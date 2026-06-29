@@ -1,0 +1,15 @@
+.page-container{
+    background-color: #1e2228;
+    min-height: 100vh;
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    box-sizing: border-box;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.page-container::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: saira;
+    src: url(\Saira-VariableFont_wdth,wght.ttf);
+}
+
+body{
+    background-color: #24282f;
+    font-family: saira;
+}
