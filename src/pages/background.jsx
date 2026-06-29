@@ -1,16 +1,17 @@
-
 import "../component/background.css"
 import StackJava from "../component/tech-stack/Java.jsx"
 import MongoDB from "../component/tech-stack/MongoDB.jsx"
 import SpringBoot from "../component/tech-stack/SpringBoot.jsx"
 import Gatling from "../component/tech-stack/Gatling.jsx"
 
+const base = import.meta.env.BASE_URL;
+
 function background() {
     return(
         <div className="background-container">
             <div className="education">
                 <div className="university">
-                    <img src="/asu.png" style={{maxWidth: '50%', height: 'auto'}}></img>
+                    <img src={`${base}asu.png`} style={{maxWidth: '50%', height: 'auto'}}></img>
                     <div className="order-fix">
                         <h3 style={{fontWeight:'700'}}>
                             Undergraduate at Arizona State University (ASU)
@@ -24,7 +25,7 @@ function background() {
                     </div>
                 </div>
                 <div className="high-school">
-                    <img src="/high.jpg" style={{maxWidth: '50%', height: 'auto'}}></img>
+                    <img src={`${base}high.jpg`} style={{maxWidth: '50%', height: 'auto'}}></img>
                     <div className="order-fix">
                         <h3 style={{fontWeight:'700'}}>
                             Studied at Ruamrudee International School (High School)
@@ -41,7 +42,7 @@ function background() {
             <div className="work-experience">
                 <div className="work">
                     <div className="go-down">
-                        <img src="/meron.jpg" style={{maxWidth: '100%', height: 'auto'}}></img>
+                        <img src={`${base}meron.jpg`} style={{maxWidth: '100%', height: 'auto'}}></img>
                         <p>May 2025 - Aug 2025 · 4 mos</p>
                     </div>
                     <div className="order-fix">

@@ -12,7 +12,7 @@ import "./component/app.css"
 function App() {
 
   return (
-    <Router>
+    <Router basename="/my-folio">
       <Navbar/>
       <div className='page-container'>
         <Routes>

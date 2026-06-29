@@ -1,4 +1,3 @@
-
 import "../component/project.css"
 import Type1 from "../component/type/opensource.jsx"
 import Type2 from "../component/type/closedsource.jsx"
@@ -29,7 +28,7 @@ import ThreeJS from "../component/tech-stack/ThreeJs.jsx"
 import Express from "../component/tech-stack/Express.jsx"
 import Groq from "../component/tech-stack/Groq.jsx"
 
-
+const base = import.meta.env.BASE_URL;
 
 function projects(){
     return(
@@ -43,7 +42,7 @@ function projects(){
                     </div>
                 </div>
                 <div className="mid-demo">
-                    <img src="/webpageimg.png" style={{maxWidth: '100%', height: 'auto'}}></img>
+                    <img src={`${base}webpageimg.png`} style={{maxWidth: '100%', height: 'auto'}}></img>
                 </div>
                 <div className="project-sum">
                     <p>
@@ -70,7 +69,7 @@ function projects(){
                     </div>
                 </div>
                 <div className="mid-demo">
-                    <img src="/discobot.png" style={{maxWidth: '100%', height: 'auto'}}></img>
+                    <img src={`${base}discobot.png`} style={{maxWidth: '100%', height: 'auto'}}></img>
                 </div>
                 <div className="project-sum">
                     <p>
@@ -99,7 +98,7 @@ function projects(){
                     </div>
                 </div>
                 <div className="mid-demo">
-                    <img src="/spotify.png" style={{maxWidth: '100%', height: 'auto'}}></img>
+                    <img src={`${base}spotify.png`} style={{maxWidth: '100%', height: 'auto'}}></img>
                 </div>
                 <div className="project-sum">
                     <p>
@@ -130,7 +129,7 @@ function projects(){
                     </div>
                 </div>
                 <div className="mid-demo">
-                    <img src="/360.png" style={{maxWidth: '100%', height: 'auto'}}></img>
+                    <img src={`${base}360.png`} style={{maxWidth: '100%', height: 'auto'}}></img>
                 </div>
                 <div className="project-sum">
                     <p>
@@ -156,7 +155,7 @@ function projects(){
                     </div>
                 </div>
                 <div className="mid-demo">
-                    <video src="/slug.mp4" autoPlay muted loop style={{maxWidth: '100%', height: 'auto'}}></video>
+                    <video src={`${base}slug.mp4`} autoPlay muted loop style={{maxWidth: '100%', height: 'auto'}}></video>
                 </div>
                 <div className="project-sum">
                     <p>
@@ -180,7 +179,7 @@ function projects(){
                     </div>
                 </div>
                 <div className="mid-demo" style={{margin:'auto'}}>
-                    <img src="/league.png" style={{maxWidth: '100%', height: 'auto'}}></img>
+                    <img src={`${base}league.png`} style={{maxWidth: '100%', height: 'auto'}}></img>
                 </div>
                 <div className="project-sum">
                     <p>
@@ -201,7 +200,6 @@ function projects(){
                     </div>
                 </div>
             </div>
-
             <div className="project-box">
                 <div className="top-title">
                     <div className="title" style={{fontSize:'15px'}}> Vrm-Chat</div>
@@ -211,7 +209,7 @@ function projects(){
                     </div>
                 </div>
                 <div className="mid-demo" style={{margin:'auto'}}>
-                    <img src="/vtube.png" style={{maxWidth: '100%', height: 'auto'}}></img>
+                    <img src={`${base}vtube.png`} style={{maxWidth: '100%', height: 'auto'}}></img>
                 </div>
                 <div className="project-sum">
                     <p>
